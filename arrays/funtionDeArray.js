@@ -81,16 +81,16 @@ let filterFruitas = fruits.filter((item) => {
 
 let filterFruits = fruits.filter((item) => item.length > 4); // => Forma mais simplificada - filter serve para filtar algo apartir do seu valor;
 
-console.log(filterFruits)
+// console.log(filterFruits)
 
 let ok = fruits.every((value) => value.length > 3); // every verifica se todos os itens tem a minha validação
 
 let okay = fruits.some((value) => value.length > 3); // some verifica se pelo menos 1 item tem a minha verificação
 
 if (ok, okay) {
-    console.log('maiores que 3')
+    // console.log('maiores que 3')
 } else {
-    console.log('menor que 3')
+    // console.log('menor que 3')
 }
 
 /* ------------------------------------------------------------------------------- */
@@ -100,9 +100,9 @@ if (ok, okay) {
 let searchFruits = fruits.includes('Uva')
 
 if (fruits.includes('Uva')) {
-    console.log('Tem Uva sim...')
+    // console.log('Tem Uva sim...')
 } else {
-    console.log('Não tem Uva...')
+    // console.log('Não tem Uva...')
 }
 
 
