@@ -59,25 +59,17 @@ function elements() {
     // newButton.innerHTML = 'botão';
 
     let newUl = document.createElement('ul');
-    
+
     for (let n = 0; n < 5; n++) {
         let x = n + 1
         const newLi = document.createElement('li');
         newLi.innerHTML = ` item add ${x}`;
-        newUl.append(newLi);      
+        newUl.append(newLi);
     }
 
     ul.after(newUl);
-
-
-    // for (let n = 0; n < 5; n++) {
-    //     let newLi = document.createElement('li');
-    //     newLi.innerHTML = "item add" + n;
-    //     newUl.append(newli);
-    // }
-
     // ul.before(newUl);
-    
+
 
 }
 
